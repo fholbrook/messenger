@@ -203,6 +203,7 @@ class Connection
             }
 
             $this->amqpChannel = $this->amqpFactory->createChannel($connection);
+            $this->amqpChannel->qos(null,1);
         }
 
         return $this->amqpChannel;
