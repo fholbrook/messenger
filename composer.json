@@ -1,5 +1,5 @@
 {
-    "name": "fholbrook/messenger",
+    "name": "symfony/messenger",
     "type": "library",
     "description": "Symfony Messenger Component",
     "keywords": [],
